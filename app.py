@@ -3,7 +3,7 @@ from gradio_client import Client, handle_file
 import tempfile
 
 # Initialize the Gradio client
-client = Client("nvidia/audio-flamingo-2")
+client = Client("nvidia/audio-flamingo-2-0.5B")
 
 st.set_page_config(page_title="Audio Analyzer", layout="centered")
 st.title("🔊 AI Powered Eldery Care Tool")
